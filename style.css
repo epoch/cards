@@ -1,0 +1,33 @@
+
+/* 
+
+display: none;
+visibility
+opacity
+
+*/
+
+span {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+
+p {
+  display: none;
+}
+
+.theme-switcher {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode span {
+  border-color: white;
+}
